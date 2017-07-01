@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/core/ohmcoinj-core.iml" filepath="$PROJECT_DIR$/core/ohmcoinj-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ohmcoinj-parent.iml" filepath="$PROJECT_DIR$/ohmcoinj-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tools/ohmcoinj-tools.iml" filepath="$PROJECT_DIR$/tools/ohmcoinj-tools.iml" />
+    </modules>
+  </component>
+</project>
