@@ -85,7 +85,10 @@ public class SeedPeers implements PeerDiscovery {
         v4addr[1] = (byte) (0xFF & (seed >> 8));
         v4addr[2] = (byte) (0xFF & (seed >> 16));
         v4addr[3] = (byte) (0xFF & (seed >> 24));
-        return InetAddress.getByAddress(v4addr);
+        // return InetAddress.getByAddress(v4addr);
+        // temporarily use the Block Explorer IP address since OhmD port is open
+        // replace this with any other IP that Ohm is listening on - ie any other OhmD node
+        return InetAddress.getByName("54.245.60.163");
     }
 
     public static int[] seedAddrs =
